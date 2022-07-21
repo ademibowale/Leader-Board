@@ -58,7 +58,6 @@ npm install --save-dev style-loader css-loader
 Run ```npm start```
 
 ## Author
-
 👤 **Adebowale Adegboye**
 
 - GitHub: [@githubhandle](https://github.com/ademibowale)
