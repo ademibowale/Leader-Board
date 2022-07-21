@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abdulhamiid/webpack-b.git"
+    "url": "git+https://github.com/ademibowale/webpack-b.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abdulhamiid/webpack-b/issues"
+    "url": "https://github.com/ademibowale/webpack-b/issues"
   },
   "homepage": "https://github.com/abdulhamiid/webpack-b#readme",
   "devDependencies": {
