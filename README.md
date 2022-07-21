@@ -5,7 +5,6 @@
 
 > The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved in Leaderboard API service.
 
-
 ## Built With
 
 - HTML
@@ -13,7 +12,6 @@
 - JavaScript
 - ES6
 - Webpack
-
 
 ## Getting Started
 
@@ -24,7 +22,6 @@ To get a local copy up and running follow these simple example steps.
 ```
 https://github.com/ademibowale/Leader-Board.git
 ```
-
 
 ## This project is built with webpack 
 
