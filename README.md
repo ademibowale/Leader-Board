@@ -58,6 +58,9 @@ npm install --save-dev style-loader css-loader
 
 Run ```npm start```
 
+## Live Demo
+https://ademibowale.github.io/Leader-Board/
+
 ## Author
 👤 **Adebowale Adegboye**
 
