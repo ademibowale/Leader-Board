@@ -24,6 +24,12 @@ nav {
   align-items: center;
 }
 
+body {
+  background-color: teal;
+  color: #000;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
 #menu {
   width: 800px;
   display: flex;

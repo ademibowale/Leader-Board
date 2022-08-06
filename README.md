@@ -38,7 +38,6 @@ https://github.com/ademibowale/Leader-Board.git
 ```npx webpack --config webpack.config.js```<br/>
 ```npm run build```<br/>
 
-
 ## Setting up HtmlWebpackPlugin
 ### First install the plugin and adjust the webpack.config.js file:
 ```
@@ -49,7 +48,6 @@ npm install --save-dev html-webpack-plugin
 ```
 npm install --save-dev style-loader css-loader
 ```
-
 ## Development
 ### Using webpack-dev-server
 ```npm install --save-dev webpack-dev-server```
