@@ -1,4 +1,5 @@
 # Leader-Board
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leaderboard App
@@ -13,7 +14,6 @@
 - ES6
 - Webpack
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -23,7 +23,6 @@ To get a local copy up and running follow these simple example steps.
 ```
 https://github.com/ademibowale/Leader-Board.git
 ```
-
 
 ## This project is built with webpack 
 
@@ -60,7 +59,6 @@ npm install --save-dev style-loader css-loader
 Run ```npm start```
 
 ## Author
-
 👤 **Adebowale Adegboye**
 
 - GitHub: [@githubhandle](https://github.com/ademibowale)
