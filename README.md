@@ -62,8 +62,7 @@ Run ```npm start```
 ## Live Demo
 https://leader-board-hycrown-app.netlify.app/
 
-## Live Demo
-https://ademibowale.github.io/Leader-Board/
+
 
 ## Author
 👤 **Adebowale Adegboye**
