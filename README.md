@@ -1,71 +1,66 @@
-## My Leader-Board
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Leaderboard App
+# Leader-board App
 
-> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved in Leaderboard API service.
+> The leaderboard website displays scores submitted by different players. It also allows users to submit thir own score. All data is preserved in Leaderboard API service.
 
-## Built With
+## Setup
 
-- HTML
-- CSS 
-- JavaScript
-- ES6
-- Webpack
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-## Getting Started
+[Download the ZIP from this location](https://github.com/ademibowale/Leader-Board/archive/refs/heads/development.zip), or run the following [git](https://github.com/ademibowale/Leader-Board.git) command to clone the files to your machine:
 
-To get a local copy up and running follow these simple example steps.
+- Once the files are on your machine, open the _leaderboard_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
 
-### Clone this repository
+## 🛠 Installation & Set Up
 
-```
-https://github.com/ademibowale/Leader-Board.git
-```
+1. Install Node Modules
 
-## This project is built with webpack 
+   ```sh
+   npm install
+   ```
 
-- To work on this Repository Locally you need to run some command for basic Installation.
-***NOTE: The minimum supported Node.js version to run webpack 5 is 10.13.0 (LTS)***
-- Click Here for node Installation - [node](https://nodejs.org/en/download/) 
+2. Start the development server
 
-## Basic Setup
+   ```sh
+   npm start
 
-### Let's run npx webpack, which will take our script at src/index.js as the entry point, and will generate dist/main.js as the output.
+   ```
 
-```npx webpack```<br/>
-```npx webpack --config webpack.config.js```<br/>
-```npm run build```<br/>
+3. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
+## 🚀 Building and Running for Production
 
-## Setting up HtmlWebpackPlugin
-### First install the plugin and adjust the webpack.config.js file:
-```
-npm install --save-dev html-webpack-plugin
-```
+1. Generate a full static production build
 
-### Loading CSS
-```
-npm install --save-dev style-loader css-loader
-```
+   ```sh
+   npm run build
+   ```
 
-## Development
-### Using webpack-dev-server
-```npm install --save-dev webpack-dev-server```
+## Live Demo Link
 
-### Deployment
+Access the the online version of my application with this link
+[Live Demo](https://leader-board-hycrown-app.netlify.app/)
 
-Run ```npm start```
+## Build With
 
-## Live Demo
-https://leader-board-hycrown-app.netlify.app/
+- Editor : Visual studio code
 
-## Live Demo
-https://ademibowale.github.io/Leader-Board/
+- Languages
+
+  - [ ] HTML
+  - [ ] CSS
+  - [ ] JavaScript
+
+- Terminologies used
+  - [ ] Linters
+  - [ ] LocalStorage
+  - [ ] Github workflow
+  - [ ] Webpack
 
 ## Author
-👤 **Adebowale Adegboye**
+
+👤 **Adebowale Adegboye Monsur**
 
 - GitHub: [@githubhandle](https://github.com/ademibowale)
 - Twitter: [@twitterhandle](https://twitter.com/Ademibowale1)
@@ -89,4 +84,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
