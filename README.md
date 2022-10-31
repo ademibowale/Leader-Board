@@ -4,6 +4,11 @@
 
 > The leaderboard website displays scores submitted by different players. It also allows users to submit thir own score. All data is preserved in Leaderboard API service.
 
+## Screenshort
+
+![Web capture_31-10-2022_172952_leader-board-hycrown-app netlify app](https://user-images.githubusercontent.com/92458236/199059832-5d80de23-fd7a-46df-95db-1ea1e82cf56c.jpeg)
+
+
 ## Setup
 
 If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
@@ -85,3 +90,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
+
