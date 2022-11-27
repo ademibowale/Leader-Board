@@ -93,6 +93,9 @@ span {
     5px 0 8px 0 rgba(0, 255, 0, 0.5);
 }
 
+.lead-items::-webkit-scrollbar {
+  display: none;
+}
 
 .lead-items li {
   padding: 5px;
