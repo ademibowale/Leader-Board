@@ -1,9 +1,17 @@
-import './style.css';
-import { search, form, refreshBtn } from './modules/variables.js';
-import handleSubmit from './modules/form.js';
-import displayScore from './modules/async.js';
-import { filter } from './modules/fetch.js';
+import './styles.css';
+import { fetchScore, addScore } from './modules/leaderboard.js';
 
-refreshBtn.addEventListener('click', displayScore);
-form.addEventListener('submit', handleSubmit);
-search.addEventListener('keyup', filter);
+const form = document.querySelector('#lead-form');
+const userInput = document.querySelector('#user-name');
+const scoreInput = document.querySelector('#user-score');
+const refresh = document.querySelector('.lead-btn');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  addScore(userInput.value, scoreInput.value);
+  form.reset();
+});
+
+refresh.addEventListener('click', () => {
+  fetchScore();
+});

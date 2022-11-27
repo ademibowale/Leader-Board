@@ -1,36 +1,34 @@
-/* eslint-disable */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
-  mode: 'production',
-  devServer: {
-    static: './docs',
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-    }),
-  ],
-  output: {
-    "filename": "[name].js",
-    path: path.resolve(__dirname, 'docs'),
-    clean: true,
-  },
-  optimization: {
-    runtimeChunk: 'single',
-  },
   module: {
     rules: [
+      {
+        test: /\.svg$/,
+        use: 'svg-inline-loader',
+      },
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        test: /\.(js)$/,
+        use: 'babel-loader',
       },
     ],
   },
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    clean: true,
+  },
+  plugins: [new HtmlWebpackPlugin(
+    {
+      template: path.resolve(__dirname, './src/index.html'),
+    },
+
+  )],
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
 };
