@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brainconnect93/Leaderboard.git"
+    "url": "https://github.com/ademibowale/Leader-Board.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brainconnect93/Leaderboard/issues"
+    "url": "https://github.com/ademibowale/Leader-Board/issues"
   },
-  "homepage": "https://github.com/brainconnect93/Leaderboard#readme",
+  "homepage": "https://github.com/ademibowale/Leader-Board#readme",
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
