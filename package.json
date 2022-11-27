@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ademibowale/Leader-Board.git"
+    "url": "https://github.com/ademibowale/Leader-Board."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ademibowale/Leader-Board/issues"
+    "url": "https://github.com/ademibowale/Leader-Board/"
   },
-  "homepage": "https://github.com/ademibowale/Leader-Board#readme",
+  "homepage": "https://github.com/ademibowale/Leader-Board#",
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
