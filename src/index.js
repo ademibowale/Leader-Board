@@ -12,6 +12,6 @@ form.addEventListener('submit', (e) => {
   form.reset();
 });
 
-refresh.addEventListener('click', () => {
+refresh.addEventListener('click', () => 
   fetchScore();
 });
