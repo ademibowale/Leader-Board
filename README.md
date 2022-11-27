@@ -67,7 +67,7 @@ Access the the online version of my application with this link
 
 - GitHub: [@githubhandle](https://github.com/ademibowale)
 - Twitter: [@twitterhandle](https://twitter.com/Ademibowale1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adebowale-adegboye-143568221/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tech-adebowale-adegboye/)
 
 ## 🤝 Contributing
 
