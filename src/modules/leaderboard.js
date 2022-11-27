@@ -18,6 +18,11 @@ const createGame = async () => {
     .then((json) => (json));
 };
 
+function scoreTable(scores) {
+  let output = '';
+  scores.forEach((user) => {
+    output += `<li>${user.user}: ${user.score}</li>`;
+  });
   document.querySelector('.lead-items').innerHTML = output;
 }
 
