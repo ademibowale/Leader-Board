@@ -11,3 +11,7 @@ form.addEventListener('submit', (e) => {
   addScore(userInput.value, scoreInput.value);
   form.reset();
 });
+
+refresh.addEventListener('click', () => {
+  fetchScore();
+});
