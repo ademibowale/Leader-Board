@@ -4,6 +4,10 @@
 
 > The leaderboard website displays scores submitted by different players. It also allows users to submit thir own score. All data is preserved in Leaderboard API service.
 
+## Screenshot image
+
+![Screenshot (1)](https://user-images.githubusercontent.com/92458236/207450942-e0dbca83-3367-44db-98ae-f0dd257a1fbb.png)
+
 ## Setup
 
 If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
