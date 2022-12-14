@@ -58,13 +58,13 @@ a {
 h1 {
   color: #fff;
   letter-spacing: 4px;
-}
+  font-size: 15px;
+  }
 
 #showcase h2 {
   display: inline;
 }
 
-#refresh,
 #form button {
   border: none;
   color: #fff;
@@ -79,14 +79,18 @@ h1 {
   background-color: #fff;
   font-size: 16px;
   margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
 }
 
 #showcase button:hover {
   background-color: rgb(184, 54, 54);
   opacity: 1;
+  cursor: pointer;
+  transition: 0.7s;
 }
 
-#showcase button:hover,
 #form button:hover {
   cursor: pointer;
   transition: 0.7s;
@@ -110,8 +114,8 @@ h1 {
   gap: 10px;
 }
 
-#form-header,
-#showcase-title {
+#form-header
+ {
   background-color: #cb9;
   color: #fff;
   width: 100%;
@@ -123,6 +127,10 @@ h1 {
   justify-content: space-between;
   gap: 20px;
   align-items: center;
+  background-color: #cb9;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
 }
 
 #form input {
@@ -245,10 +253,7 @@ ul {
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 15px;
-  }
-
+ 
   h2 {
     font-size: 14px;
     letter-spacing: 1.5px;
@@ -259,30 +264,15 @@ ul {
     letter-spacing: 2px;
   }
 
-  nav {
-    padding: 15px 10px;
-    z-index: 2;
-    gap: 20px;
-    position: fixed;
-  }
-
-  .container {
+ .container {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 120px;
     width: 95%;
   }
 
-  #form-header {
-    padding: 8px 12px;
-  }
-
   #form {
     padding: 15px;
-  }
-
-  #form input {
-    font-size: 15px;
   }
 
   #form button[type="submit"] {
@@ -318,20 +308,10 @@ ul {
     justify-content: space-between;
     font-size: 15px;
   }
-
-  #refresh {
-    padding: 10px;
-    border-radius: 4px;
-    font-size: 15px;
-  }
-
+  
   ul {
     width: 100%;
     overflow: visible;
   }
 
-  li {
-    margin: 10px 0;
-    font-size: 15px;
   }
-}
