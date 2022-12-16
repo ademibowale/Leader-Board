@@ -44,7 +44,7 @@ If you installed git you can clone the code to your machine, or download a ZIP o
 ## Live Demo Link
 
 Access the the online version of my application with this link
-[Live Demo](https://leader-board-hycrown-app.netlify.app/)
+[Live Demo](https://ademibowale.github.io/Leader-Board/)
 
 ## Build With
 
