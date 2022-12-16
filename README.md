@@ -33,7 +33,7 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://webpack.js.org/">Webpack.js</a></li>
-    <li><a href="https://nextjs.org/">NextJS</a></li>
+    <li><a href="https://nodejs.org/en/">Node-JS</a></li>
     <li><a href="#">CSS</a></li>
     <li><a href="#">HTML</a></li>
     <li><a href="https://www.jslint.com/">jslint</a></li>
