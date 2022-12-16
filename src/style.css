@@ -190,7 +190,7 @@ h1 {
 
 #form button[type="submit"] {
   padding: 15px 20px;
-  width: 150px;
+  width: 100px;
   font-size: 18px;
   margin-top: 20px;
   box-sizing: border-box;
@@ -198,6 +198,7 @@ h1 {
   margin-left: 70%;
   background-color: #f00;
   color: #fff;
+  border-radius:27px; 
 }
 
 li {
