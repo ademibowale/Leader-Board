@@ -1,8 +1,8 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Exotic Rentals ](#-exotic-rentals--)
-  - [Backend](#backend)
+- [📖 Leader-board ](#-exotic-rentals--)
+  - [Frontend](#Frontend)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -58,15 +58,12 @@ To get a local copy up and running, follow these steps.
 
 ## Setup
 
-```sh
-
-  If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+ If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
 [Download the ZIP from this location](https://github.com/ademibowale/Leader-Board/archive/refs/heads/development.zip), or run the following [git](https://github.com/ademibowale/Leader-Board.git) command to clone the files to your machine:
 
 - Once the files are on your machine, open the _leaderboard_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
- 
-  ```
+
 
 ### Prerequisites
 
