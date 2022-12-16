@@ -1,4 +1,4 @@
-B@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
 
 * {
   margin: 0;
@@ -190,7 +190,7 @@ h1 {
 
 #form button[type="submit"] {
   padding: 15px 20px;
-  width: 150px;
+  width: 100px;
   font-size: 18px;
   margin-top: 20px;
   box-sizing: border-box;
