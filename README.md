@@ -1,21 +1,78 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# 📗 Table of Contents
 
-# Leader-board App
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Exotic Rentals ](#-exotic-rentals--)
+  - [Backend](#backend)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-> The leaderboard website displays scores submitted by different players. It also allows users to submit thir own score. All data is preserved in Leaderboard API service.
+# 📖 Personal Portfolio <a name="about-project"></a>
+
+**LEADER-BOARD** The leaderboard website displays scores submitted by different players. It also allows users to submit thir own score. All data is preserved in Leaderboard API service.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://webpack.js.org/">Webpack.js</a></li>
+    <li><a href="https://nextjs.org/">NextJS</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="https://www.jslint.com/">jslint</a></li>
+  </ul>
+</details>
 
 ## Screenshot image
+
 ![Screenshot (2)](https://user-images.githubusercontent.com/92458236/208084292-58caffd1-7c33-42a7-b520-84b40f702881.png)
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Access the the online version of my application with this link
+
+- [Live Demo Link](https://ademibowale.github.io/Leader-Board/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ## Setup
 
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+```sh
+
+  If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
 [Download the ZIP from this location](https://github.com/ademibowale/Leader-Board/archive/refs/heads/development.zip), or run the following [git](https://github.com/ademibowale/Leader-Board.git) command to clone the files to your machine:
 
 - Once the files are on your machine, open the _leaderboard_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation & Set Up
+ 
+  ```
 
-## 🛠 Installation & Set Up
+### Prerequisites
+
+In order to run this project you need:
+
+# 🛠 Installation & Set Up
 
 1. Install Node Modules
 
@@ -39,27 +96,25 @@ If you installed git you can clone the code to your machine, or download a ZIP o
    ```sh
    npm run build
    ```
+### Usage
 
-## Live Demo Link
+To run the project, execute the following command:
 
-Access the the online version of my application with this link
-[Live Demo](https://ademibowale.github.io/Leader-Board/)
+```sh
+  npm run dev
+```
 
-## Build With
+### Deployment
 
-- Editor : Visual studio code
+You can deploy this project using:
 
-- Languages
+```sh
+  git push development
+```
 
-  - [ ] HTML
-  - [ ] CSS
-  - [ ] JavaScript
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Terminologies used
-  - [ ] Linters
-  - [ ] LocalStorage
-  - [ ] Github workflow
-  - [ ] Webpack
+## 👥 Author <a name="author"></a>
 
 ## Author
 
@@ -69,22 +124,36 @@ Access the the online version of my application with this link
 - Twitter: [@twitterhandle](https://twitter.com/Ademibowale1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/adebowale-adegboye-143568221/)
 
-## 🤝 Contributing
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **I will add a feature for a new project.**
+- [ ] **I will add some animations.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/ademibowale/Leader-Board/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project consider giving it a star ⭐️.
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for giving me the opportunity to work on this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
