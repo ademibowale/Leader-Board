@@ -1,7 +1,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Leader-board ](#-exotic-rentals--)
+- [📖 Leader-board ](#-Leader-board--)
   - [Frontend](#Frontend)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -21,7 +21,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Personal Portfolio <a name="about-project"></a>
+# 📖 Leader-Board Project <a name="about-project"></a>
 
 **LEADER-BOARD** The leaderboard website displays scores submitted by different players. It also allows users to submit thir own score. All data is preserved in Leaderboard API service.
 
