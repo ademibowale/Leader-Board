@@ -42,13 +42,11 @@
 
 ## Screenshot image
 
-![Screenshot (2)](https://user-images.githubusercontent.com/92458236/208084292-58caffd1-7c33-42a7-b520-84b40f702881.png)
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 Access the the online version of my application with this link
 
-- [Live Demo Link](https://ademibowale.github.io/Leader-Board/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
