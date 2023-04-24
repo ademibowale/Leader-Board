@@ -1,53 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Leader-board</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/fe6dec7cca.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>LeaderBoard</title>
+</head>
+
 <body>
-  <main>
-    <nav>
-      <div id="nav-header">
-        <img src="https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-01/Beijing-Olympic-medals-013122-Getty-FTR.jpg?itok=j0IAWute'" id="logo" alt="logo">
-        <h1>LEADER-BOARD</h1>
-      </div>
-      <span id="menu">
-        <input type="text" minlength="5" maxlength="15" id="search" placeholder="Search">
-        <a href="https://github.com/ademibowale/Leader-Board" target="_blank">View source</a>
-      </span>
-    </nav>
-    <div class="container">
-      <section id="showcase">
-        <div id="showcase-title">
-          <h2>Recent scores</h2>
-          <h3 id="result"></h3>
-          <button id="refresh">Refresh</button>
+    <header>
+        <h1 id="page-title">Leaderboard</h1>
+    </header>
+    <section>
+        <div class="top-ranks">
+            <div class="rank-second top-ranks-person">
+                <p class="position pos-not-first">2nd</p>
+                <i class="fas fa-user-alt fa-4x"></i>
+                <p class="name second-person"></p>
+                <p class="score second-score"></p>
+            </div>
+            <div class="rank-first top-ranks-person">
+                <p class="position">1st</p>
+                <i class="fas fa-crown fa-2x"></i>
+                <i class="fas fa-user-alt fa-6x"></i>
+                <p class="name first-person"></p>
+                <p class="score first-score"></p>
+            </div>
+            <div class="rank-third top-ranks-person">
+                <p class="position pos-not-first">3rd</p>
+                <i class="fas fa-user-alt fa-4x"></i>
+                <p class="name third-person"></p>
+                <p class="score third-score"></p>
+            </div>
         </div>
-        <ul id="scores"></ul>
-      </section>
-      <section>
-        <h2 id="form-header">Players Score</h2>
-        <form action="" id="form">
-          <i class="fa fa-user icon"></i>
-          <input class="input-field" id="user-name" type="text" placeholder="Your name" minlength="5" maxlength="15" name="full-name" id="user-name" required>
-          <input type="number" placeholder="Your score" name="score" id="score" min="0" required>
-          <button type="submit">Submit</button>
+        <div class="for-fullscreen">
+        <div class="score-section">
+            <div class="score-section-header">
+                <h2 id="score-title">Recent scores</h2>
+                <button type="button" id="refresh">Refresh</button>
+            </div>
+            <div class="ranks">
+                <!-- Player Ranks -->
+            </div>
+        </div>
+        <form id="form">
+            <h3 class="form-title">Add your score</h3>
+            <input type="text" placeholder="Your Name" id="name" class="name-score">
+            <input type="text" placeholder="Your Score" id="score" class="name-score">
+            <button type="submit" id="submit">Submit</button>
         </form>
-      </section>
     </div>
-    <div id="social-media">
-      <a href="https://www.linkedin.com/in/adebowale-adegboye-143568221/" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" alt="twitter">
-      </a>
-      <a href="https://twitter.com/Ademibowale1" target="_blank">
-        <img src="https://www.pngitem.com/pimgs/m/0-4834_twitter-logo-round-edges-hd-png-download.png" alt="twitter">
-      </a>
-      <a href="https://github.com/ademibowale/Leader-Board" target="_blank">
-        <img src="https://marenvernon.com/img/icon-github.png" alt="twitter">
-      </a>
-    </div>
-  </main>
+    </section>
 </body>
+
 </html>
